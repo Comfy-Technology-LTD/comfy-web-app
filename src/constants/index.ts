@@ -1,0 +1,24 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
+import { MetricItem } from "../interfaces";
+import { Market1 } from "./icons";
+
+export const comfyLogo = "/assets/images/png/comfy.webp";
+export const irisk = "/assets/images/png/irisk.webp";
+export const kek = "/assets/images/png/kek.webp";
+export const firmus = "/assets/images/png/firmus.png";
+export const deli = "/assets/images/png/deli.webp";
+export const herobackground = "/assets/images/jpg/hero-three.jpg";
+export const footerbackground = "/assets/images/jpg/footer-2.jpg";
+export const colephoto = "/assets/images/jpg/cole.webp";
+export const Timeimage = "/assets/images/png/24-hours.png";
+export const advisory = "/assets/images/png/advisory.png";
+export const agile = "/assets/images/png/agile.png";
+export const consultant = "/assets/images/png/consultant.png";
+export const continuous = "/assets/images/png/continuous.png";
+export const crowd = "/assets/images/png/crowd-of-users.png";
+export const datasecurity = "/assets/images/png/data-security.png";
+export const Financialprofit = "/assets/images/png/financial-profit.png";
+export const groupOfpeople = "/assets/images/png/group.png";
+export const operator = "/assets/images/png/operator.png";
+export const working = "/assets/images/png/working.png";
+export const video = "/assets/images/jpg/video.jpg";
