@@ -140,12 +140,12 @@ const Footer: React.FC = () => {
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          {/* <a
+          <a
             href="#"
             className="text-white hover:text-gray-900 bg-gray-900 hover:bg-white border flex justify-center items-center w-10 h-10 rounded-full"
           >
             <FontAwesomeIcon icon={faDribbble} />
-          </a> */}
+          </a>
         </div>
       </div>
       </section>
