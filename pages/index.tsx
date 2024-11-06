@@ -12,27 +12,16 @@ import { Market1 } from '@/src/constants/icons';
 import Team from '@/src/components/Team';
 import { groupOfpeople ,Financialprofit,Timeimage, agile,advisory,consultant, continuous } from '@/src/constants';
 import ProductVideo from '@/src/components/ProductVideo';
+import Image from 'next/image';
 
 
-
-
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
 
 
 export default function Home() {
   const metricData: MetricItem[] = [
     { title: "Reinsurance", value: "3,653", description: "Reinsurance offers processed.", icon: <FaProjectDiagram /> },
-    { title: "Reinsurers", value: "20", description: "Reinsurers onboarded", icon: <img src={groupOfpeople} alt='group of people' className='w-16 text-blue-500'/>},
-    { title: "Facultative", value: "$30m", description: "Facultative premiums distibuted.", icon:<img src={Financialprofit} alt="Financial Profit Icon" className='w-16'/>},
+    { title: "Reinsurers", value: "20", description: "Reinsurers onboarded", icon: <Image src={groupOfpeople} alt="Description" width={16} height={500} />},
+    { title: "Facultative", value: "$30m", description: "Facultative premiums distibuted.", icon: <Image src={Financialprofit} alt="Description" width={16} height={500} />},
     { title: "Cedants", value: "15", description: "Cedants onboarded to the platform", icon: <FaTrophy /> },
     { title: "Income", value: "12%", description: "Income growth rate for users.", icon: Market1 },
     { title: "Income", value: "12%", description: "Income growth rate for users.", icon: Market1 },
@@ -42,13 +31,8 @@ export default function Home() {
     className=" h-full bg-white"
       // className={`${geistSans.variable} ${geistMono.variable}  font-[family-name:var(--font-geist-sans)]`}
     >
-      <main className="bg-white text-black">
-       {/* <Header/> */}
+      <main className="bg-white text-black ">
        <HeroSection/>
-       {/* <div className="flex flex-col gap-6 h-screen">
-       <BusinessArticle/>
-       <TreatyArticle/>
-       </div> */}
        <BusinessArticle/>
        <TreatyArticle/>
        <Metrics metrics={metricData}/>

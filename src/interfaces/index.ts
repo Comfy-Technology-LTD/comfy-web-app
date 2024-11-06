@@ -2,7 +2,7 @@ export interface MetricItem {
     title: string;
     value: string;
     description: string;
-    icon: JSX.Element;
+    icon: any;
   }
 
   export interface TeamMember {
@@ -10,6 +10,12 @@ export interface MetricItem {
     contact: string;
     email: string;
     position: string;
-    picture: string;
+    picture: any;
   }
   
+
+  export interface SolutionCardProps {
+    title: string;
+    description: string;
+    img: any;
+}

@@ -20,7 +20,7 @@ const ProductVideo: React.FC<VideoSectionProps> = ({
   };
 
   return (
-    <div className="flex justify-center items-center w-full md:h-screen py-20 md:px-6">
+    <div className="flex justify-center items-center w-full py-20 md:px-6 ">
       <div className=" absolute z-50 rounded-3xl py-8 md:h-[650px] h-[250px] bg-red-200 md:w-[1200px] w-[350px]"></div>
       <img
         src={video}
