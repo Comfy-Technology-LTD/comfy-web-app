@@ -16,18 +16,6 @@ import ProductVideo from '@/src/components/ProductVideo';
 
 
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
-
-
 export default function Home() {
   const metricData: MetricItem[] = [
     { title: "Reinsurance", value: "3,653", description: "Reinsurance offers processed.", icon: <FaProjectDiagram /> },
@@ -42,13 +30,8 @@ export default function Home() {
     className=" h-full bg-white"
       // className={`${geistSans.variable} ${geistMono.variable}  font-[family-name:var(--font-geist-sans)]`}
     >
-      <main className="bg-white text-black">
-       {/* <Header/> */}
+      <main className="bg-white text-black ">
        <HeroSection/>
-       {/* <div className="flex flex-col gap-6 h-screen">
-       <BusinessArticle/>
-       <TreatyArticle/>
-       </div> */}
        <BusinessArticle/>
        <TreatyArticle/>
        <Metrics metrics={metricData}/>

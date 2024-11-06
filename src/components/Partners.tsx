@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Partners: React.FC = () => {
   return (
-    <section className="py-10 bg-white flex items-center w-full justify-center overflow-scroll">
+    <section className="py-10 bg-white flex items-center w-full justify-center ">
       <div className="container mx-auto">
         <div className="text-center mb-6">
           <h5 className="text-xl font-semibold text-gray-700">
@@ -13,8 +13,8 @@ const Partners: React.FC = () => {
           </h5>
         </div>
 
-        <div className="grid md:grid-cols-4  grid-flow-col w-full space-x-6  items-center justify-center sm:grid-cols-2 overflow-scroll">
-          <div className="md:w-[234px] w-[366px] md:h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed flex items-center hover:border-red-500">
+        <div className="grid md:grid-cols-4  grid-flow-col w-full space-x-6  items-center justify-center sm:grid-cols-2 ">
+          <div className="md:w-[234px] w-[366px] md:h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed border-[#8f8f8f] flex items-center hover:border-red-500">
             <Image
               src={kek}
               alt="KEK-logo"
@@ -24,7 +24,7 @@ const Partners: React.FC = () => {
             />
           </div>
 
-          <div className="md:w-[234px] w-[366px]  h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed flex items-center hover:border-red-500">
+          <div className="md:w-[234px] w-[366px]  h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed border-[#8f8f8f] flex items-center hover:border-red-500">
             <Image
               src={firmus}
               alt="firmus-logo"
@@ -34,7 +34,7 @@ const Partners: React.FC = () => {
             />
           </div>
 
-          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed flex items-center hover:border-red-500">
+          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed border-[#8f8f8f]  flex items-center hover:border-red-500">
             <Image
               src={irisk}
               alt="irisk-logo"
@@ -44,7 +44,7 @@ const Partners: React.FC = () => {
             />
           </div>
 
-          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed flex items-center hover:border-red-500">
+          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed border-[#8f8f8f] flex items-center hover:border-red-500">
             <Image
               src={visal}
               alt="visal-logo"
@@ -54,7 +54,7 @@ const Partners: React.FC = () => {
             />
           </div>
 
-          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed flex items-center hover:border-red-500">
+          <div className="md:w-[234px] w-[366px] h-[123px] rounded-full px-5 py-[30px] place-content-center border border-dashed border-[#8f8f8f] flex items-center hover:border-red-500">
             <Image
               src={deli}
               alt="deli-logo"

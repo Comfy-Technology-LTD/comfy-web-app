@@ -10,6 +10,12 @@ export interface MetricItem {
     contact: string;
     email: string;
     position: string;
-    picture: string;
+    picture: any;
   }
   
+
+  export interface SolutionCardProps {
+    title: string;
+    description: string;
+    img: any;
+}

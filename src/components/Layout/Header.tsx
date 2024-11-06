@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { comfyLogo } from "../../constants";
 import { useState } from "react";
+import Link from "next/link";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -58,13 +59,13 @@ const Header: React.FC = () => {
               />
             </svg>
           </span>
-          <a href="/" className="text-xl md:mt-0 mt-8 hover:text-green-500">
+          <a href="/" className="md:mt-0 text-base font-[900] mt-8 hover:text-green-500">
             Home
           </a>
-          <a href="/about" className="text-base hover:text-green-500">
+          <Link href="/aboutus" className="text-base font-[900] hover:text-green-500">
             About Us
-          </a>
-          <a href="/contact" className="text-base hover:text-green-500">
+          </Link>
+          <a href="/contact" className="text-base font-[900] hover:text-green-500">
             Contact Us
           </a>
           <button className="px-4 py-2 md:hidden bg-green-900 text-white text-base font-bold font-sans rounded-full w-full hover:bg-buttoncolor">

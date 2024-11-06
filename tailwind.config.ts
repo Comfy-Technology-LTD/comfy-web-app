@@ -14,6 +14,7 @@ const config: Config = {
         buttoncolor: '#18ba32',
         lightgray: '#f9f9f9',
       },
+      
     },
   },
   plugins: [],
