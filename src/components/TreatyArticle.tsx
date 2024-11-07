@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import frame from "@/public/assets/images/png/frame.webp";
+import frame from "../../public/assets/images/png/frame.webp";
 const BusinessArticle: React.FC = () => {
   return (
     <section
