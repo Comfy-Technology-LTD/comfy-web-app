@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import user from "@/public/assets/images/png/user.png"
+import user from "../../public/assets/images/png/user.png";
 const BusinessArticle: React.FC = () => {
   return (
     <section
