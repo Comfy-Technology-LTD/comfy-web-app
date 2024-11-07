@@ -5,7 +5,7 @@ import { Market1 } from "./icons";
 import comfyLogo from "../../public/assets/images/png/comfy.webp";
 import irisk from "../../public/assets/images/png/irisk.webp";
 import kek from "../../public/assets/images/png/kek.webp";
-import visal from "../../public/assets/images/png/visal.webp";
+import visal from "../../public/assets/images/png/visal.webp"
 import firmus from "../../public/assets/images/png/firmus.png";
 import deli from "../../public/assets/images/png/deli.webp";
 export const herobackground = "/assets/images/jpg/hero-three.jpg";
@@ -35,10 +35,10 @@ import cloudIcon from "../../public/assets/images/png/cloudIcon.png";
 
 export {
   comfyLogo,
-  visal,
   securityIcon,
   irisk,
   kek,
+  visal,
   cloudIcon,
   firmus,
   deli,
