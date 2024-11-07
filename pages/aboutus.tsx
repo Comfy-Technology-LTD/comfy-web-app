@@ -1,9 +1,8 @@
-import Hero from "@/src/components/Hero";
 import Header from "@/src/components/Layout/Header";
 import Partners from "@/src/components/Partners";
 import SolutionCard from "@/src/components/SolutionsCard";
 import Team from "@/src/components/Team";
-import {solutionData} from '@/src/constants/data'
+import { solutionData } from "@/src/constants/data";
 import {
   herobackground,
   banner,
@@ -108,23 +107,26 @@ const AboutUs: React.FC = () => {
                 height={348}
                 className="rounded-[30px]"
               />
-              <div className=" z-50 absolute  bottom-[135px] right-[280px] w-20 h-20 flex items-center shadow-md justify-content-center rounded-full bg-gradient-to-r from-pink-500 to-orange-400">
-                <button className="flex items-center justify-center w-full">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="white"
-                    viewBox="0 0 24 24"
-                    strokeWidth={1.5}
-                    stroke="white"
-                    className="size-6"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
-                    />
-                  </svg>
-                </button>
+              <div className="z-50 absolute bottom-[135px] right-[280px] w-20 h-20 flex items-center shadow-md justify-center rounded-full bg-gradient-to-r from-pink-500 p-5 to-orange-400">
+                <div className="relative w-24 h-24 flex items-center justify-center rounded-full">
+                  <div className="animate-ping duration-[20ms] absolute -stop-6 -sleft-8 z-50 sbottom-[135px] sright-[280px] w-20 h-20 flex items-center shadow-md justify-content-center rounded-full bg-gradient-to-r from-pink-500 to-orange-400"></div>
+                  <button className="flex items-center justify-center w-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="white"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="white"
+                      className="size-8"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -182,7 +184,7 @@ const AboutUs: React.FC = () => {
               <Image src={business} alt="" width={670} height={528} />
             </div>
             <div className="w-[843px] absolute bottom-0 right-0 h-[500px] bg-gradient-to-r  rounded-l-full from-[#ef326f] to-[#fe6c4e]">
-              <div className="absolute z-50 right-20 top-44 animate-bounce delay-75">
+              <div className="absolute z-50 right-20 top-44 animate-animate-bounce">
                 <Image src={dots} alt="" width={63} height={202} />
               </div>
             </div>
@@ -199,27 +201,47 @@ const AboutUs: React.FC = () => {
               Solutions for all your needs
             </p>
             <p className="text-[50px] font-[800] text-center w-[900px] leading-0">
-              The best application features you won't find anywhere
+              The best application features you won&#39;t find anywhere
             </p>
           </div>
           <div className="flex mx-auto justify-center gap-8 w-full">
             <div className=" space-y-10">
-              <SolutionCard title={solutionData[0].title} description={solutionData[0].description} img={solutionData[0].img}/>
-              <SolutionCard title={solutionData[3].title} description={solutionData[3].description} img={solutionData[3].img}/>
+              <SolutionCard
+                title={solutionData[0].title}
+                description={solutionData[0].description}
+                img={solutionData[0].img}
+              />
+              <SolutionCard
+                title={solutionData[3].title}
+                description={solutionData[3].description}
+                img={solutionData[3].img}
+              />
             </div>
             <div className=" flex items-end py-8">
-              <SolutionCard title={solutionData[2].title} description={solutionData[2].description} img={solutionData[2].img}/>
+              <SolutionCard
+                title={solutionData[2].title}
+                description={solutionData[2].description}
+                img={solutionData[2].img}
+              />
             </div>
             <div className=" space-y-10">
-              <SolutionCard title={solutionData[1].title} description={solutionData[1].description} img={solutionData[1].img}/>
-              <SolutionCard  title={solutionData[4].title} description={solutionData[4].description} img={solutionData[4].img}/>
+              <SolutionCard
+                title={solutionData[1].title}
+                description={solutionData[1].description}
+                img={solutionData[1].img}
+              />
+              <SolutionCard
+                title={solutionData[4].title}
+                description={solutionData[4].description}
+                img={solutionData[4].img}
+              />
             </div>
           </div>
         </div>
       </div>
 
       <Partners />
-      <Footer/>
+      <Footer />
     </section>
   );
 };

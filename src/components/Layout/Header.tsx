@@ -59,15 +59,15 @@ const Header: React.FC = () => {
               />
             </svg>
           </span>
-          <a href="/" className="md:mt-0 text-base font-[900] mt-8 hover:text-[#F34566]">
+          <Link href="/" className="md:mt-0 text-base font-[900] mt-8 hover:text-[#F34566]">
             Home
-          </a>
+          </Link>
           <Link href="/aboutus" className="text-base font-[900] hover:text-[#F34566]">
             About Us
           </Link>
-          <a href="/contact" className="text-base font-[900] hover:text-[#F34566]">
+          <Link href="/contactus" className="text-base font-[900] hover:text-[#F34566]">
             Contact Us
-          </a>
+          </Link>
           <button className="px-4 py-2 md:hidden bg-gradient-to-r from-pink-500 to-orange-400 text-white text-base font-bold font-sans rounded-full w-full ">
             Request Demo
           </button>

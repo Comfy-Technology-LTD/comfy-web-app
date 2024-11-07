@@ -1,4 +1,4 @@
-import { errorpage,footerbackground } from "@/src/constants";
+import { footerbackground } from "@/src/constants";
 import Link from "next/link";
 const ErrorPage: React.FC = () => {
   return (

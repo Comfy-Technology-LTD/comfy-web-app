@@ -1,30 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import { video } from "../constants";
 import Image from "next/image";
 
-type VideoSectionProps = {
-  videoUrl: string;
-  thumbnailUrl: string;
-  altText: string;
-};
 
-const ProductVideo: React.FC<VideoSectionProps> = ({
-  videoUrl,
-  thumbnailUrl,
-  altText,
-}) => {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
+const ProductVideo: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center w-full py-20 md:px-6 ">
       <div className=" absolute z-50 rounded-3xl py-8 md:h-[650px] h-[250px] bg-red-200 md:w-[1200px] w-[350px]"></div>
-      <img
+      <Image
         src={video}
         alt="product video"
+        width={1296}
+        height={600}
         className="rounded-[30px] md:w-[1296px] md:h-[600px] w-[360px] h-[230px] z-50"
       />
       <div className=" z-50 absolute w-20 h-20 flex items-center shadow-md justify-content-center rounded-full bg-gradient-to-r from-pink-500 to-orange-400">
