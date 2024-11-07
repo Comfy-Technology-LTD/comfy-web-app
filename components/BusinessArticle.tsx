@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import user from "../../public/assets/images/png/user.png";
+import USER from "../public/assets/images/png/user.png"
+
 const BusinessArticle: React.FC = () => {
   return (
     <section
@@ -80,7 +81,7 @@ const BusinessArticle: React.FC = () => {
             </div>
 
             <div className="flex-1 md:absolute md:right-24 md:-bottom-60 md:p-4 ">
-              <Image src={user} alt="systemDashboard" className="md:w-[600px] rounded-3xl shadow-lg" />
+              <Image src={USER} alt="systemDashboard" className="md:w-[600px] rounded-3xl shadow-lg" />
             </div>
           </div>
         </div>
