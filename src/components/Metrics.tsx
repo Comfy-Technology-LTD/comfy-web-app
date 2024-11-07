@@ -41,8 +41,8 @@ const Metrics: React.FC<MetricsProps> = ({ metrics }) => {
                 <Image
                   src={colephoto}
                   alt={"colephoto"}
-                  width={96}
-                  height={96}
+                  width={50}
+                  height={50}
                   className="w-auto h-24 p-2 object-contain bg-cover rounded-full"
                 />
               </span>
@@ -59,7 +59,7 @@ const Metrics: React.FC<MetricsProps> = ({ metrics }) => {
                 key={index}
                 className="p-[30px] bg-gray-100 rounded-[40px] shadow-md flex flex-col items-center md:w-60 w-[350px]"
               >
-                <div className="text-4xl mb-2 fill-red-800">{metric.icon}</div>
+                <div className="text-4xl mb-2 fill-red-80">{metric.icon}</div>
                 <p className="text-5xl font-bold mt-2 p-0 text-gray-900">
                   {metric.value}
                   {index !== metrics.length - 1 && (

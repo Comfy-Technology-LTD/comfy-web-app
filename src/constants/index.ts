@@ -1,6 +1,4 @@
-import { icon } from "@fortawesome/fontawesome-svg-core";
-import { MetricItem } from "../interfaces";
-import { Market1 } from "./icons";
+
 
 import comfyLogo from "../../public/assets/images/png/comfy.webp";
 import irisk from "../../public/assets/images/png/irisk.webp";
@@ -10,10 +8,16 @@ import firmus from "../../public/assets/images/png/firmus.png";
 import deli from "../../public/assets/images/png/deli.webp";
 export const herobackground = "/assets/images/jpg/hero-three.jpg";
 export const footerbackground = "/assets/images/jpg/footer-2.jpg";
-export const colephoto = "/assets/images/jpg/cole.webp";
+export const colephoto = "/assets/images/jpg/Cole.jpeg";
 import Timeimage from "../../public/assets/images/png/24-hours.png";
 import advisory from "../../public/assets/images/png/advisory.png";
+import arrow from "../../public/assets/images/png/arrow.png"
+import call from "../../public/assets/images/png/call.png"
 import agile from "../../public/assets/images/png/agile.png";
+import securityIcon from "../../public/assets/images/png/secuirtyIcon.png"
+export const prince = "/assets/images/jpg/Prince.png";
+export const emma = "/assets/images/jpg/Paapa.jpeg";
+export const kwaw = "/assets/images/jpg/Kwaw.jpg"
 import consultant from "../../public/assets/images/png/consultant.png";
 import continuous from "../../public/assets/images/png/continuous.png";
 import crowd from "../../public/assets/images/png/crowd-of-users.png";
@@ -30,13 +34,15 @@ import intelligent from "../../public/assets/images/png/intelligent.png";
 import AboutVideo from "../../public/assets/images/png/about-video.jpg";
 import dots from "../../public/assets/images/png/dots.png";
 export const back = "/assets/images/png/back.png";
-import securityIcon from "../../public/assets/images/png/securityIcon.png";
 import cloudIcon from "../../public/assets/images/png/cloudIcon.png";
+import clock from "../../public/assets/images/png/clock.png";
+export const errorpage = "/assets/images/jpg/404.jpg";
 
 export {
   comfyLogo,
   securityIcon,
   irisk,
+  arrow,
   kek,
   visal,
   cloudIcon,
@@ -45,6 +51,7 @@ export {
   Timeimage,
   advisory,
   agile,
+  clock,
   consultant,
   crowd,
   datasecurity,
@@ -59,4 +66,5 @@ export {
   working,
   operator,
   continuous,
+  call
 };

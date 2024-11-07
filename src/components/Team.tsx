@@ -1,6 +1,6 @@
 import React from "react";
 import { TeamMember } from "../interfaces";
-import { colephoto, heading,  comfyLogo} from "../constants";
+import { colephoto,  comfyLogo, prince, kwaw, emma} from "../constants";
 import Image from "next/image";
 
 const teamMembers: TeamMember[] = [
@@ -8,7 +8,7 @@ const teamMembers: TeamMember[] = [
     name: "Cole Baidoo",
     contact: "+1234567890",
     email: "john.doe@example.com",
-    position: "CEO",
+    position: "CTO/Co-Partner",
     picture: colephoto,
   },
   {
@@ -16,21 +16,21 @@ const teamMembers: TeamMember[] = [
     contact: "+1234567891",
     email: "jane.smith@example.com",
     position: "Backend Developer",
-    picture: colephoto,
+    picture: prince,
   },
   {
     name: "Emmanuel Baidoo",
     contact: "+1234567892",
     email: "michael.johnson@example.com",
     position: "Frontend Developer",
-    picture: colephoto,
+    picture: emma,
   },
   {
     name: "Francis Baidoo",
     contact: "+1234567893",
     email: "emily.davis@example.com",
     position: "Tech Asst.",
-    picture: colephoto,
+    picture: kwaw,
   },
 ];
 
@@ -49,9 +49,11 @@ const Team: React.FC = () => {
               key={index}
               className=" flex flex-col items-start md:text-center md:p-6 ps-3 relative z-50"
             >
-              <img
+              <Image
                 src={member.picture}
                 alt={member.name}
+                width={256}
+                height={256}
                 className="w-64 h-64 rounded-[30px] md:mx-auto mb-4 object-cover "
               />
               <div className="w-full flex flex-col items-start md:ms-5 relative">
@@ -59,12 +61,12 @@ const Team: React.FC = () => {
                 <p className=" text-[#F0366F] mb-2">{member.position}</p>
                 {/* <p className=" text-gray-700 mb-2">{member.contact}</p> */}
                 <p className="text-center text-gray-700 ">{}</p>
-                <div className="border-2 p-2 rounded-full cursor-pointer border-[#F0366F] absolute -bottom-20 bg-white left-12">
+                <div className="border-4 hover:bg-[#F0366F] transition-all duration-500 ease-in-out group p-2 rounded-full cursor-pointer border-[#F0366F] absolute -bottom-20 bg-white left-12">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="size-6"
+                    className="size-6 group-hover:text-white"
                   >
                     <path
                       fillRule="evenodd"

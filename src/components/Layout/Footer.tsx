@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="ps-3">
-            <h3 className="text-white text-[28px] underline-offset-8 font-semibold mb-4 relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-[60px] after:h-[3px] after:bg-[#fb6057]">
+            <h3 className="text-white text-[28px] underline-offset-8 font-semibold mb-4 relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-3 after:w-[60px] after:h-[3px] after:bg-[#fb6057]">
               Useful Links
             </h3>
 
@@ -58,24 +58,24 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="" className="text-white text-lg font-semibold hover:text-[#F34566]">
-                  Analytics
+                  About us
                 </Link>
               </li>
               <li>
                 <Link href="" className="text-white text-lg font-semibold hover:text-[#F34566]">
-                  Commerce
+                  Contact
                 </Link>
               </li>
               <li>
                 <Link href="" className="text-white text-lg font-semibold hover:text-[#F34566]">
-                  Insights
+                  Careers
                 </Link>
               </li>
             </ul>
           </div>
 
           <div className="p-3 gap-4">
-            <h3 className="text-white text-[28px] underline-offset-8 font-semibold mb-4 relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-2 after:w-[60px] after:h-[3px] after:bg-[#fb6057]">
+            <h3 className="text-white text-[28px] font-semibold mb-4 relative inline-block after:content-[''] after:absolute after:left-0 after:-bottom-3 after:w-[60px] after:h-[3px] after:bg-[#fb6057]">
               Subscribe Newsletter
             </h3>
             <p className="text-white mb-4 mt-5">
