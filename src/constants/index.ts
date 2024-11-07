@@ -32,6 +32,7 @@ import dots from "../../public/assets/images/png/dots.png";
 export const back = "/assets/images/png/back.png";
 import securityIcon from "../../public/assets/images/png/securityIcon.png";
 import cloudIcon from "../../public/assets/images/png/cloudIcon.png";
+export const errorpage = "/assets/images/jpg/404.jpg";
 
 export {
   comfyLogo,
