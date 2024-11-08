@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               <Circle className="absolute border-[#ffc32a] border-[24px] -z-30  w-[100px] h-[100px]  animate-animate-bounce right-96" />
               <div className="z-50">
                 <Image
-                  src={"/assets/images/png/hero-three-img.png"}
+                  src={`/assets/images/png/hero-three-img.png`}
                   alt={"Hero Image"}
                   width={954}
                   height={761}
