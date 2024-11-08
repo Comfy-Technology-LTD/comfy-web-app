@@ -4,6 +4,7 @@ import { herobackground } from "@/constants";
 import Header from "./Layout/Header";
 import Circle from "./Circle";
 
+
 const Hero: React.FC = () => {
   const goToServices = () => {
     const element = document.getElementById("services");
