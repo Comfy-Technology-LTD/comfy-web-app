@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import frame from "../public/assets/images/png/frame.webp";
+import { BACKGROUND } from "@/constants";
+
 const BusinessArticle: React.FC = () => {
   return (
     <section
       className="md:h-[820px] h-full p-6 smd:mt-32 flex items-center justify-center"
-      style={{ backgroundImage: "url('/assets/images/png/background-1.png')" }}
+      style={{ backgroundImage: `url(${BACKGROUND})` }}
     >
       <div className="container ">
         <div className="flex flex-col md:flex-row items-center relative">

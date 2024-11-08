@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { comfyLogo } from "../../constants";
+import { comfyLogo } from "@/constants";
 import { useState } from "react";
 import Link from "next/link";
 

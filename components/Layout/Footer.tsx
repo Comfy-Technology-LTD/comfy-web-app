@@ -5,7 +5,7 @@ import {
   kek,
   irisk,
   visal,
-} from "../../constants";
+} from "@/constants";
 import {
   faFacebookF,
   faTwitter,
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
   return (
     <footer
       className="bg-gray-100 text-black pt-[120px] md:px-32 flex  justify-center"
-      style={{ backgroundImage: `url(${footerbackground})` }}
+      style={{ backgroundImage: `url(${footerbackground.src})` }}
     >
       <section className=" container flex flex-col">
         <div className="container mx-auto flex gap-8 text-sm items-center justify-between mb-20">

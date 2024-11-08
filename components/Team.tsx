@@ -1,6 +1,6 @@
 import React from "react";
-import { TeamMember } from "../interfaces";
-import { colephoto,  comfyLogo, prince, kwaw, emma} from "../constants";
+import { TeamMember } from "@/interfaces";
+import { colephoto,  comfyLogo, prince, kwaw, emma} from "@/constants";
 import Image from "next/image";
 
 const teamMembers: TeamMember[] = [

@@ -1,5 +1,5 @@
 import React from "react";
-import { video } from "../constants";
+import { video } from "@/constants";
 import Image from "next/image";
 
 

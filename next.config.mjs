@@ -2,9 +2,6 @@
 const nextConfig = {
   basePath: "/comfy-web-app",
   output: "export",
-  images: {
-    unoptimized: false,
-  },
   reactStrictMode: true,
   
 };

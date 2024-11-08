@@ -1,7 +1,7 @@
 import React from "react";
-import { MetricItem } from "../interfaces";
+import { MetricItem } from "@/interfaces";
 import Image from "next/image";
-import { colephoto } from "../constants";
+import { colephoto } from "@/constants";
 
 interface MetricsProps {
   metrics: MetricItem[];

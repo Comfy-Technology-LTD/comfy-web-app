@@ -1,8 +1,8 @@
 import React from "react";
-import { herobackground, banner } from "@/src/constants";
-import Header from "@/src/components/Layout/Header";
+import { herobackground, banner } from "@/constants";
+import Header from "@/components/Layout/Header";
 import Image from "next/image";
-import Footer from "@/src/components/Layout/Footer";
+import Footer from "@/components/Layout/Footer";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -17,7 +17,7 @@ const ContactUs: React.FC = () => {
     <section className="">
       <div
         className="bg-cover h-[564px]  md:h-[564px] bg-center bg-no-repeat flex flex-col items-center"
-        style={{ backgroundImage: `url(${herobackground})` }}
+        style={{ backgroundImage: `url(${herobackground.src})` }}
       >
         <div className="container">
           <Header />

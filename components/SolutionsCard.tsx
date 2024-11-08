@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { SolutionCardProps } from "../interfaces";
+import { SolutionCardProps } from "@/interfaces";
 
 
 const SolutionCard: React.FC<SolutionCardProps> = ({ title, description, img, }) => {
