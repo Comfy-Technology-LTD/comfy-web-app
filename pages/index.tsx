@@ -1,15 +1,15 @@
 
-import HeroSection from '@/src/components/Hero';
-import Footer from "@/src/components/Layout/Footer";
-import Partners from "@/src/components/Partners";
-import BusinessArticle from "@/src/components/BusinessArticle";
-import TreatyArticle from "@/src/components/TreatyArticle";
-import Metrics from "@/src/components/Metrics";
-import { MetricItem } from "@/src/interfaces";
+import HeroSection from '@/components/Hero';
+import Footer from "@/components/Layout/Footer";
+import Partners from "@/components/Partners";
+import BusinessArticle from "@/components/BusinessArticle";
+import TreatyArticle from "@/components/TreatyArticle";
+import Metrics from "@/components/Metrics";
+import { MetricItem } from "@/interfaces";
 import {FaProjectDiagram, FaTrophy, FaChartLine, FaChartArea } from 'react-icons/fa';
-import Services from '@/src/components/Services';
-import Team from '@/src/components/Team';
-import ProductVideo from '@/src/components/ProductVideo';
+import Services from '@/components/Services';
+import Team from '@/components/Team';
+import ProductVideo from '@/components/ProductVideo';
 
 
 

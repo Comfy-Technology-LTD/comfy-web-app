@@ -3,13 +3,13 @@ import {
   working,
   clock,
   call,
-} from "../constants";
+} from "@/constants";
 import Image from "next/image";
 
 const Services: React.FC = () => {
 
   return (
-    <section className="py-12 md:px-32 px-6 flex justify-center ">
+    <section  id="services" className="py-12 md:px-32 px-6 flex justify-center ">
       <div className="container">
         <div className="flex flex-col gap-6 mb-8 px-6">
           <p className="text-pink-600 font-semibold uppercase tracking-wide">

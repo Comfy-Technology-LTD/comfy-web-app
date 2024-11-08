@@ -1,4 +1,5 @@
-import { footerbackground } from "@/src/constants";
+import Image from "next/image";
+import { footerbackground, comfyLogo } from "../constants";
 import Link from "next/link";
 const ErrorPage: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const ErrorPage: React.FC = () => {
         style={{ backgroundImage: `url(${footerbackground})` }}
       >
         <div className="flex flex-col items-center justify-center text-white gap-3">
+          <Image src={comfyLogo} alt="" width={300} height={50}/>
           <h1 className="text-3xl font-bold">Sorry the page does not exit</h1>
           <div className="flex flex-col items-center justify-center gap-10">
             <svg

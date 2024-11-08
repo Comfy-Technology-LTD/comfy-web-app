@@ -19,3 +19,7 @@ export interface MetricItem {
     description: string;
     img: any;
 }
+
+export interface CircleProps{
+  
+}

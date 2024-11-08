@@ -1,5 +1,5 @@
-import { SolutionCardProps } from "../interfaces";
-import { cloudIcon, securityIcon } from "../constants";
+import { SolutionCardProps } from "@/interfaces";
+import { cloudIcon, securityIcon } from "@/constants";
 
 const solutionData: SolutionCardProps[] = [
   {

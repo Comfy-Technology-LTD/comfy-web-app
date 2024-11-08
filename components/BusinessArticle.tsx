@@ -1,11 +1,14 @@
 import React from "react";
 import Image from "next/image";
-import user from "../../public/assets/images/png/user.png";
+import USER from "@/public/assets/images/png/user.png"
+
+import { BACKGROUND } from "@/constants";
+
 const BusinessArticle: React.FC = () => {
   return (
     <section
       className="md:h-[820px] h-full md:relative p-6 flex justify-center items-center "
-      style={{ backgroundImage: "url('/assets/images/png/background-1.png')" }}
+      style={{ backgroundImage: `url(${BACKGROUND})` }}
     >
       <div className="container">
         <div className="mx-auto container flex flex-col py-12 md:px-12 md:mt-16">
@@ -80,7 +83,7 @@ const BusinessArticle: React.FC = () => {
             </div>
 
             <div className="flex-1 md:absolute md:right-24 md:-bottom-60 md:p-4 ">
-              <Image src={user} alt="systemDashboard" className="md:w-[600px] rounded-3xl shadow-lg" />
+              <Image src={USER} alt="systemDashboard" className="md:w-[600px] rounded-3xl shadow-lg" />
             </div>
           </div>
         </div>

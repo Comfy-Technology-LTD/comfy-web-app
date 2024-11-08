@@ -1,7 +1,7 @@
 import React from "react";
 
-import visal from "../../public/assets/images/png/visal.webp"
-import { kek, firmus, irisk, deli } from "../constants";
+import visal from "@/public/assets/images/png/visal.webp"
+import { kek, firmus, irisk, deli } from "@/constants";
 import Image from "next/image";
 
 const Partners: React.FC = () => {

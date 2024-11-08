@@ -1,8 +1,8 @@
-import Header from "@/src/components/Layout/Header";
-import Partners from "@/src/components/Partners";
-import SolutionCard from "@/src/components/SolutionsCard";
-import Team from "@/src/components/Team";
-import { solutionData } from "@/src/constants/data";
+import Header from "@/components/Layout/Header";
+import Partners from "@/components/Partners";
+import SolutionCard from "@/components/SolutionsCard";
+import Team from "@/components/Team";
+import { solutionData } from "@/constants/data";
 import {
   herobackground,
   banner,
@@ -11,16 +11,17 @@ import {
   business,
   dots,
   back,
-} from "@/src/constants";
+} from "@/constants";
 import Image from "next/image";
-import Footer from "@/src/components/Layout/Footer";
+import Footer from "@/components/Layout/Footer";
 
 const AboutUs: React.FC = () => {
+  console.log(herobackground)
   return (
     <section className="">
       <div
         className=" bg-cover h-[564px]  md:h-[564px] bg-center  bg-no-repeat flex flex-col items-center"
-        style={{ backgroundImage: `url(${herobackground})` }}
+        style={{ backgroundImage: `url(${herobackground.src})` }}
       >
         <div className="container">
           <Header />
